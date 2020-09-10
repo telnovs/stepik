@@ -1,0 +1,30 @@
+body{
+	width:70%;
+	margin:0 auto;
+}
+h1,h2,h3{
+	font-family: Helvetica, sans sefir;
+	margin-top: 1.5rem;
+}
+h1{
+	font-size: 32px;
+}
+
+table,tr,td,th{
+	border:solid 1px #000;
+}
+
+div{
+	float: right;
+	font-style:italic;
+	margin:0px 10px 10px 15px;
+}
+
+img{
+	display: block;
+}
+
+.houston{
+	width:200px;
+	height:200px;
+}
