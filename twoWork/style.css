@@ -34,6 +34,13 @@ header{
 	background-size: cover;
    background-position: center center;
 }
+.header{
+	display: flex;
+	padding:0;
+	margin:0 auto;
+	align-items: center;
+	justify-content: center;
+}
 .logo{
 	display: flex;
 	margin: 0px 830px 0px 40px;
@@ -52,13 +59,19 @@ header{
 
 .menu-heder__list{
 	display: flex;
+	list-style: none;
+
 }
 
 .menu-heder__link{
-
+}
+a{
+	display:flex;
+	text-decoration: none;
+	margin: 15px;
 }
 span{
-
+	padding-left:8px;
 }
 /*************************************/
 .hero {
