@@ -142,3 +142,35 @@ p{
 .ppc__logo{
 	margin-right:48px ;
 }
+/******************************/
+.team-main__row1{
+	display: flex;
+	padding:0;
+	margin-top:58px;
+	flex-direction:row;
+	align-items: center;
+	justify-content:space-between;
+}
+.foto{
+	margin-bottom: 12px;
+}
+.name{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 28px;
+	color: #007765;
+	margin:0 auto;
+	text-align:center;
+}
+.job{
+	font-family: Roboto;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 21px;
+	color: #000000
+	margin:0 auto;
+	text-align:center;
+}
