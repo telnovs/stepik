@@ -1,5 +1,37 @@
 //====================================================================================================
-header{}
+.header{
+	&__body{
+		@include flexbox();
+		height: 100px;
+		justify-content: space-between;
+		align-items: center;
+	}
+	&__column{}
+	&__logo{}
+}
+.menu-header{
+	
+	&__menu{
+		display: flex;
+		justify-content:center;
+		align-items: center;
+	}
+	&__button{
+		a {
+			font-family: Roboto;
+			font-style: normal;
+			font-weight: 500;
+			font-size: 13px;
+			line-height: 24px;
+			display: flex;
+			align-items: center;
+			text-align: center;
+			color: #1D1D1D;
+		}
+	}
+	&__icon{}
+}
+
 //====================================================================================================
 
 /*

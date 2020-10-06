@@ -1,1 +1,14 @@
 // header style
+.header{
+
+    &__logo{
+        @include flexbox();
+        justify-content: space-between;
+		align-items: center;
+    }
+    &__logo_1{
+
+    }
+    &__logo_2{}
+    &__button{}
+}
