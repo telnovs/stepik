@@ -204,12 +204,65 @@ h6 {
    }
 }
 //</ОСНОВНАЯ СЕТКА>===========================================================================================================
-.search__input{
-   width:100%;
-   border-bottom: 1px solid #E0E0E0;
+
+
+//***************************************************///
+.search{
+   &__input{
+      width:100%;
+      border-bottom: 1px solid #E0E0E0;
+      margin-bottom: 58px;
+   }
+   &__h2{
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 22px;
+      line-height: 34px;
+      display: flex;
+      align-items: center;
+      color: #1D1D1D;
+   }
+}
+///************************************/////////////////////////
+.card{
+   &__img{
+      margin: 16px 0;
+   }
+   &__h3{
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 24px;
+      display: flex;
+      align-items: center;
+      color: #1D1D1D;
+   }
+   &__discr{
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 21px;
+      display: flex;
+      align-items: center;
+      color: #626262;
+
+   }
+   &__time{
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 13px;
+      line-height: 21px;
+      display: flex;
+      align-items: center;
+      color: #1D1D1D;
+   }
 }
 
-
+///************************************////////////////////////
 
 
 //<ПОДКЛЮЧЕНИЕ ФАЙЛОВ СТИЛЕЙ СТРАНИЦ И ЭЛЕМЕНТОВ>====================================================================================================

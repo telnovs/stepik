@@ -2,3 +2,11 @@ mixin item(title, descr)
   .item
     h2.item-title= title
     p.item-descr= descr
+
+mixin card(img,name,descr,time)
+  .container
+    .card
+      img(class="card__img" src=img  alt="")
+      h3.card__h3= name
+      p.card__descr= descr 
+      p.card__time=time
