@@ -75,7 +75,7 @@ $fontfamily: "";
 
 //<ПЕРЕМЕННЫЕ>===========================================================================================================
 $minwidth: 320px;
-$mw: 960;
+$mw: 980;
 $md1: $mw + 30;
 $md2: 768.98;
 $md3: 320.98;
@@ -225,9 +225,25 @@ h6 {
    }
 }
 ///************************************/////////////////////////
+.cards{
+   display: flex;
+   // flex-direction: row;
+   flex-wrap: wrap;
+   align-content: stretch;
+   height: 100%;
+}
+
+.card-box{
+   // width: 30%;
+   display: flex; 
+}
 .card{
+   display: flex;
+   flex-direction: column;
    &__img{
       margin: 16px 0;
+      padding: 0px 5px;
+      
    }
    &__h3{
       font-family: Roboto;
