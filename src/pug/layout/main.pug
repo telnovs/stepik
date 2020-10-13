@@ -22,8 +22,21 @@ html(lang='en')
         .container
           input(class="search__input" type=search  placeholder="Введите текст для поиска")
           h2.search__h2 Рестораны в Москве
-      +card('../assets/img/card/1.png','Макдоналдс — Газетный','₽₽ • Бургеры','25 - 35 мин')
-      
+      .box-card
+        .container
+          .cards
+            +card('../assets/img/card/1.png','Макдоналдс — Газетный','₽₽ • Бургеры','25 - 35 мин')
+            +card('../assets/img/card/2.png','DimSum & Co — ЦДМ','₽ • Японская • Китайская • Азиатская','40 - 50 мин')
+            +card('../assets/img/card/3.png','ДвижОК — Манежная','₽₽ • ₽ • Американская • Европейская','35 - 45 мин')
+            +card('../assets/img/card/4.png','НЯ — NHA','₽₽ • Вьетнамская','30 - 40 мин')
+            +card('../assets/img/card/5.png','Точка Дзы — Цветной','₽₽ • Вьетнамская','40 - 50 мин')
+            +card('../assets/img/card/6.png','Cinnabon','₽ • Выпечка • Десерты • Капкейки','25 - 35 мин')
+            +card('../assets/img/card/7.png','PIZZELOVE','₽₽ • Пицца','15 - 25 мин')
+            +card('../assets/img/card/8.png','Zю кафе — Тверская','₽₽ • Японская','25 - 35 мин')
+            +card('../assets/img/card/9.png','Bar BQ Cafe — Манежная','₽₽₽ • Европейская','30 - 40 мин')
+                    
+      include ../includes/modules/footer
+
       
       
       
