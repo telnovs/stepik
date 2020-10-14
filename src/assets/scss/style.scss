@@ -225,21 +225,34 @@ h6 {
    }
 }
 ///************************************/////////////////////////
+// .box-card{
+//    display: flex;
+//    width: 1124px;
+//    justify-content: space-between;
+//    align-items: center;
+// }
+
 .cards{
    display: flex;
+   justify-content: space-between;
    // flex-direction: row;
-   flex-wrap: wrap;
-   align-content: stretch;
-   height: 100%;
+   // flex-wrap: wrap;
+   // align-content: stretch;
+   // height: 100%;
+   
 }
 
 .card-box{
+  
+   display: flex;
+   justify-content: space-between;
    // width: 30%;
-   display: flex; 
+   // flex: 0 0 33.333%; 
 }
 .card{
-   display: flex;
-   flex-direction: column;
+   flex: 0 0 33.333%; 
+   // display: flex;
+   // flex-direction: column;
    &__img{
       margin: 16px 0;
       padding: 0px 5px;
